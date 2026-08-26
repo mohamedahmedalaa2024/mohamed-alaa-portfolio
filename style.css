@@ -6,9 +6,9 @@
 }
 
 body {
-    background-color: #f9fafb;
-    color: #1f2937;
-    line-height: 1.6;
+    background-color: #f8fafc;
+    color: #334155;
+    line-height: 1.7;
 }
 
 .container {
@@ -18,98 +18,150 @@ body {
     text-align: center;
 }
 
-/* Hero Section */
+/* Hero Section - تصميم طبي تقني أنيق (درجات الأزرق والأخضر الهادئ) */
 .hero {
-    background: linear-gradient(135deg, #2563eb, #1e40af);
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
     color: white;
-    padding: 80px 0;
+    padding: 90px 0;
+    border-bottom: 4px solid #0284c7;
 }
 
-.profile-placeholder {
-    width: 120px;
-    height: 120px;
-    background: rgba(255, 255, 255, 0.2);
-    border: 4px solid white;
-    border-radius: 50%;
-    margin: 0 auto 20px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: white;
+.profile-badge {
+    display: inline-block;
+    background: rgba(2, 132, 199, 0.2);
+    color: #38bdf8;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    border: 1px solid rgba(56, 189, 248, 0.3);
 }
 
 .hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+    letter-spacing: -0.5px;
 }
 
 .tagline {
     font-size: 1.2rem;
-    opacity: 0.9;
-    margin-bottom: 20px;
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    color: #cbd5e1;
 }
 
 .social-links a {
     color: white;
-    background: rgba(255, 255, 255, 0.2);
-    padding: 8px 20px;
-    margin: 0 5px;
-    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 22px;
+    margin: 0 6px;
+    border-radius: 8px;
     text-decoration: none;
-    transition: 0.3s;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .social-links a:hover {
-    background: white;
-    color: #1e40af;
+    background: #0284c7;
+    border-color: #0284c7;
 }
 
-/* Sections */
+/* Sections General */
 .section {
-    padding: 60px 0;
+    padding: 70px 0;
 }
 
 .section h2 {
-    font-size: 2rem;
-    margin-bottom: 30px;
-    color: #111827;
+    font-size: 2.1rem;
+    color: #0f172a;
+    margin-bottom: 40px;
+    font-weight: 700;
+    position: relative;
+}
+
+.section h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #0284c7;
+    margin: 10px auto 0 auto;
+    border-radius: 2px;
 }
 
 .bg-light {
     background-color: #ffffff;
+    border-top: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
 }
 
-/* Projects Grid */
-.projects-grid {
+.about-text {
+    font-size: 1.15rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #475569;
+    text-align: justify;
+    line-height: 1.9;
+}
+
+/* Cards Grid */
+.cards-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
-}
-
-.project-card {
-    background: #f3f4f6;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
     text-align: right;
-    transition: transform 0.3s;
 }
 
-.project-card:hover {
+.card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    border: 1px solid #e2e8f0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
     transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
 }
 
-.project-card h3 {
-    color: #2563eb;
-    margin-bottom: 10px;
+.card-tag {
+    display: inline-block;
+    background: #e0f2fe;
+    color: #0369a1;
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.card-tag-pharma {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+.card h3 {
+    color: #0f172a;
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.card p {
+    color: #64748b;
+    font-size: 0.98rem;
 }
 
 /* Footer */
 footer {
-    background: #111827;
-    color: white;
-    padding: 20px 0;
+    background: #0f172a;
+    color: #94a3b8;
+    padding: 25px 0;
     font-size: 0.9rem;
+    border-top: 1px solid #1e293b;
 }
