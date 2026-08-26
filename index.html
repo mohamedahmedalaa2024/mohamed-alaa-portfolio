@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
   <meta charset="UTF-8">
@@ -20,8 +19,6 @@
   </title>
 
 
-  <!-- GOOGLE FONTS -->
-
   <link
     rel="preconnect"
     href="https://fonts.googleapis.com"
@@ -38,9 +35,6 @@
     rel="stylesheet"
   >
 
-
-  <!-- CSS -->
-
   <link
     rel="stylesheet"
     href="style.css"
@@ -52,9 +46,38 @@
 <body>
 
 
-  <!-- =========================
-       HEADER
-  ========================== -->
+  <!-- LOADING SCREEN -->
+
+  <div
+    class="loader"
+    id="loader"
+  >
+
+    <div class="loader-content">
+
+      <span class="loader-mark">
+        M
+      </span>
+
+      <h1>
+        MOHAMED AHMED ALAA
+      </h1>
+
+      <p>
+        PHARMACY STUDENT
+      </p>
+
+      <div class="loader-line">
+        <span></span>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <!-- HEADER -->
 
   <header class="header">
 
@@ -72,6 +95,7 @@
       </span>
 
     </a>
+
 
 
     <nav
@@ -98,8 +122,16 @@
         Skills
       </a>
 
+      <a href="#timeline">
+        Journey
+      </a>
+
       <a href="#certificates">
         Certificates
+      </a>
+
+      <a href="#cv">
+        CV
       </a>
 
       <a href="#contact">
@@ -109,12 +141,12 @@
     </nav>
 
 
+
     <div class="header-actions">
 
       <button
         class="theme-toggle"
         id="themeToggle"
-        type="button"
         aria-label="Toggle theme"
       >
         ☾
@@ -124,7 +156,6 @@
       <button
         class="menu-toggle"
         id="menuToggle"
-        type="button"
         aria-label="Open menu"
       >
         ☰
@@ -136,19 +167,13 @@
 
 
 
-  <!-- =========================
-       MAIN CONTENT
-  ========================== -->
-
   <main>
 
 
-    <!-- =========================
-         HERO
-    ========================== -->
+    <!-- HERO -->
 
     <section
-      class="hero"
+      class="hero reveal"
       id="home"
     >
 
@@ -182,7 +207,6 @@
 
         <div class="hero-buttons">
 
-
           <a
             href="#certificates"
             class="btn btn-primary"
@@ -197,11 +221,9 @@
           </a>
 
 
-
           <a
             href="https://www.linkedin.com/in/mohamed-ahmed-alaa-bb2a85410/en"
             target="_blank"
-            rel="noopener noreferrer"
             class="btn btn-secondary"
           >
 
@@ -209,13 +231,11 @@
 
           </a>
 
-
         </div>
 
 
 
         <div class="hero-stats">
-
 
           <div>
 
@@ -228,7 +248,6 @@
             </span>
 
           </div>
-
 
 
           <div>
@@ -244,7 +263,6 @@
           </div>
 
 
-
           <div>
 
             <strong>
@@ -257,7 +275,6 @@
 
           </div>
 
-
         </div>
 
       </div>
@@ -267,7 +284,6 @@
       <!-- PROFILE CARD -->
 
       <div class="hero-card">
-
 
         <div class="card-top">
 
@@ -313,7 +329,6 @@
 
         <div class="profile-lines">
 
-
           <div>
 
             <span>
@@ -326,7 +341,6 @@
             </strong>
 
           </div>
-
 
 
           <div>
@@ -342,7 +356,6 @@
 
           </div>
 
-
         </div>
 
 
@@ -353,19 +366,16 @@
 
         </div>
 
-
       </div>
 
     </section>
 
 
 
-    <!-- =========================
-         ABOUT
-    ========================== -->
+    <!-- ABOUT -->
 
     <section
-      class="section about"
+      class="section about reveal"
       id="about"
     >
 
@@ -375,7 +385,6 @@
 
 
       <div class="about-grid">
-
 
         <div class="about-heading">
 
@@ -394,7 +403,6 @@
         </div>
 
 
-
         <div class="about-copy">
 
           <p>
@@ -402,7 +410,7 @@
             I am a dedicated Pharmacy student with a strong
             interest in developing practical pharmaceutical
             knowledge and understanding different areas within
-            the healthcare and pharmaceutical industry.
+            healthcare and the pharmaceutical industry.
 
           </p>
 
@@ -439,19 +447,16 @@
 
         </div>
 
-
       </div>
 
     </section>
 
 
 
-    <!-- =========================
-         EDUCATION
-    ========================== -->
+    <!-- EDUCATION -->
 
     <section
-      class="section education"
+      class="section education reveal"
       id="education"
     >
 
@@ -462,15 +467,12 @@
 
       <article class="education-card">
 
-
         <div class="education-year">
           2029
         </div>
 
 
-
         <div class="education-main">
-
 
           <p class="mini-title">
             CURRENT EDUCATION
@@ -497,15 +499,13 @@
 
           <p class="education-description">
 
-            Building a strong academic foundation in
-            pharmaceutical sciences, healthcare and
-            professional practice.
+            Building a strong academic foundation
+            in pharmaceutical sciences, healthcare
+            and professional practice.
 
           </p>
 
-
         </div>
-
 
 
         <div class="education-badge">
@@ -520,25 +520,20 @@
 
         </div>
 
-
       </article>
 
     </section>
 
 
 
-    <!-- =========================
-         SKILLS
-    ========================== -->
+    <!-- SKILLS -->
 
     <section
-      class="section skills"
+      class="section skills reveal"
       id="skills"
     >
 
-
       <div class="section-heading">
-
 
         <div class="section-label">
           03 / SKILLS & INTERESTS
@@ -556,7 +551,6 @@
           </em>
 
         </h2>
-
 
       </div>
 
@@ -576,8 +570,8 @@
           </h3>
 
           <p>
-            Building knowledge and understanding across
-            pharmacy and pharmaceutical practice.
+            Building knowledge and understanding
+            across pharmacy and pharmaceutical practice.
           </p>
 
         </article>
@@ -677,6 +671,167 @@
 
         </article>
 
+      </div>
+
+    </section>
+
+
+
+    <!-- TIMELINE -->
+
+    <section
+      class="section timeline-section reveal"
+      id="timeline"
+    >
+
+      <div class="section-heading">
+
+        <div class="section-label">
+          04 / PROFESSIONAL JOURNEY
+        </div>
+
+
+        <h2>
+
+          Growing through
+
+          <br>
+
+          <em>
+            every experience.
+          </em>
+
+        </h2>
+
+      </div>
+
+
+
+      <div class="timeline">
+
+
+        <article class="timeline-item">
+
+          <div class="timeline-year">
+            2026
+          </div>
+
+
+          <div class="timeline-dot"></div>
+
+
+          <div class="timeline-content">
+
+            <span>
+              PROFESSIONAL TRAINING
+            </span>
+
+            <h3>
+              Pharmaceutical Selling Skills
+            </h3>
+
+            <p>
+              Intensive training focused on pharmaceutical
+              sales and professional communication.
+            </p>
+
+          </div>
+
+        </article>
+
+
+
+        <article class="timeline-item">
+
+          <div class="timeline-year">
+            2026
+          </div>
+
+
+          <div class="timeline-dot"></div>
+
+
+          <div class="timeline-content">
+
+            <span>
+              REGULATORY AFFAIRS
+            </span>
+
+            <h3>
+              Pharmaceutical Registration Concepts
+            </h3>
+
+            <p>
+              Exploring registration pathways and
+              regulatory concepts for pharmaceutical products.
+            </p>
+
+          </div>
+
+        </article>
+
+
+
+        <article class="timeline-item">
+
+          <div class="timeline-year">
+            2026
+          </div>
+
+
+          <div class="timeline-dot"></div>
+
+
+          <div class="timeline-content">
+
+            <span>
+              PROFESSIONAL SESSION
+            </span>
+
+            <h3>
+              RA Professional Session on STAD
+            </h3>
+
+            <p>
+              Developing additional knowledge in
+              professional regulatory affairs concepts.
+            </p>
+
+          </div>
+
+        </article>
+
+
+
+        <article class="timeline-item">
+
+          <div class="timeline-year">
+            2029
+          </div>
+
+
+          <div class="timeline-dot"></div>
+
+
+          <div class="timeline-content">
+
+            <span>
+              NEXT MILESTONE
+            </span>
+
+            <h3>
+              Expected Graduation
+            </h3>
+
+            <p>
+              Completing the Faculty of Pharmacy program
+              at Assiut National University.
+            </p>
+
+          </div>
+
+        </article>
+
 
       </div>
 
@@ -684,21 +839,17 @@
 
 
 
-    <!-- =========================
-         CERTIFICATES
-    ========================== -->
+    <!-- CERTIFICATES -->
 
     <section
-      class="section certificates"
+      class="section certificates reveal"
       id="certificates"
     >
 
-
       <div class="section-heading">
 
-
         <div class="section-label">
-          04 / CERTIFICATES
+          05 / CERTIFICATES
         </div>
 
 
@@ -714,190 +865,200 @@
 
         </h2>
 
-
       </div>
 
 
 
-      <div class="certificate-list">
+      <div class="certificates-grid">
 
 
-        <!-- CERTIFICATE 01 -->
+        <!-- CERTIFICATE 1 -->
 
-        <article class="certificate-card">
+        <article class="certificate-image-card">
 
-
-          <div class="certificate-index">
-            01
-          </div>
-
-
-          <div class="certificate-content">
+          <img
+            src="images/certificate1.jpg"
+            alt="Regulatory Affairs Certificate"
+          >
 
 
-            <span class="certificate-provider">
+          <div class="certificate-overlay">
+
+            <span>
               PharmaSchemes
             </span>
 
 
             <h3>
-
-              Regulatory Affairs Concept &
-              Registration Steps for Human
-              Pharmaceutical Products
-
+              Regulatory Affairs
             </h3>
 
 
-            <p>
+            <div class="certificate-actions">
 
-              Training focused on concepts and
-              registration steps for human
-              pharmaceutical products.
+              <button
+                class="view-certificate"
+                data-image="images/certificate1.jpg"
+                data-title="Regulatory Affairs Concept"
+              >
+                View
+              </button>
 
-            </p>
 
+              <a
+                href="images/certificate1.jpg"
+                download
+              >
+                Download
+              </a>
+
+            </div>
 
           </div>
-
-
-          <div class="certificate-year">
-            2026
-          </div>
-
 
         </article>
 
 
 
-        <!-- CERTIFICATE 02 -->
+        <!-- CERTIFICATE 2 -->
 
-        <article class="certificate-card">
+        <article class="certificate-image-card">
 
-
-          <div class="certificate-index">
-            02
-          </div>
-
-
-          <div class="certificate-content">
+          <img
+            src="images/certificate2.jpg"
+            alt="Pharmaceutical Selling Skills Certificate"
+          >
 
 
-            <span class="certificate-provider">
+          <div class="certificate-overlay">
+
+            <span>
               PharmaSchemes
             </span>
 
 
             <h3>
-              Pharmaceutical Selling Skills Certificate
+              Pharmaceutical Selling Skills
             </h3>
 
 
-            <p>
+            <div class="certificate-actions">
 
-              Completed an intensive training program
-              focused on pharmaceutical sales and
-              professional selling skills.
+              <button
+                class="view-certificate"
+                data-image="images/certificate2.jpg"
+                data-title="Pharmaceutical Selling Skills"
+              >
+                View
+              </button>
 
-            </p>
 
+              <a
+                href="images/certificate2.jpg"
+                download
+              >
+                Download
+              </a>
+
+            </div>
 
           </div>
-
-
-          <div class="certificate-year">
-            2026
-          </div>
-
 
         </article>
 
 
 
-        <!-- CERTIFICATE 03 -->
+        <!-- CERTIFICATE 3 -->
 
-        <article class="certificate-card">
+        <article class="certificate-image-card">
 
-
-          <div class="certificate-index">
-            03
-          </div>
-
-
-          <div class="certificate-content">
+          <img
+            src="images/certificate3.jpg"
+            alt="RA Professional Session Certificate"
+          >
 
 
-            <span class="certificate-provider">
+          <div class="certificate-overlay">
+
+            <span>
               PharmaSchemes / STAD
             </span>
 
 
             <h3>
-
-              Certificate of Attendance —
-              RA Professional Session on STAD
-
+              RA Professional Session
             </h3>
 
 
-            <p>
+            <div class="certificate-actions">
 
-              Successfully completed a professional
-              session focused on regulatory affairs.
+              <button
+                class="view-certificate"
+                data-image="images/certificate3.jpg"
+                data-title="RA Professional Session"
+              >
+                View
+              </button>
 
-            </p>
 
+              <a
+                href="images/certificate3.jpg"
+                download
+              >
+                Download
+              </a>
+
+            </div>
 
           </div>
-
-
-          <div class="certificate-year">
-            2026
-          </div>
-
 
         </article>
 
 
 
-        <!-- CERTIFICATE 04 -->
+        <!-- CERTIFICATE 4 -->
 
-        <article class="certificate-card">
+        <article class="certificate-image-card">
 
-
-          <div class="certificate-index">
-            04
-          </div>
-
-
-          <div class="certificate-content">
+          <img
+            src="images/certificate4.jpg"
+            alt="Limitless Training Program Certificate"
+          >
 
 
-            <span class="certificate-provider">
+          <div class="certificate-overlay">
+
+            <span>
               Limitless
             </span>
 
 
             <h3>
-              Training Program Certificate
+              Training Program
             </h3>
 
 
-            <p>
+            <div class="certificate-actions">
 
-              Successfully completed the Limitless
-              professional training program.
+              <button
+                class="view-certificate"
+                data-image="images/certificate4.jpg"
+                data-title="Limitless Training Program"
+              >
+                View
+              </button>
 
-            </p>
 
+              <a
+                href="images/certificate4.jpg"
+                download
+              >
+                Download
+              </a>
+
+            </div>
 
           </div>
-
-
-          <div class="certificate-year">
-            2026
-          </div>
-
 
         </article>
 
@@ -908,20 +1069,101 @@
 
 
 
-    <!-- =========================
-         CONTACT
-    ========================== -->
+    <!-- CV -->
 
     <section
-      class="section contact"
+      class="section cv-section reveal"
+      id="cv"
+    >
+
+      <div class="section-heading">
+
+        <div class="section-label">
+          06 / CURRICULUM VITAE
+        </div>
+
+
+        <h2>
+
+          My professional
+
+          <br>
+
+          <em>
+            profile in one place.
+          </em>
+
+        </h2>
+
+      </div>
+
+
+
+      <div class="cv-card">
+
+
+        <div class="cv-icon">
+          CV
+        </div>
+
+
+        <div class="cv-content">
+
+          <span>
+            MOHAMED AHMED ALAA ELDIN
+          </span>
+
+
+          <h3>
+            Curriculum Vitae
+          </h3>
+
+
+          <p>
+            View my education, skills, professional
+            training and certificates.
+          </p>
+
+        </div>
+
+
+        <div class="cv-actions">
+
+          <button
+            id="viewCV"
+            class="view-cv"
+          >
+            View CV
+          </button>
+
+
+          <a
+            href="files/Mohamed-Ahmed-Alaa-CV.pdf"
+            download
+            class="download-cv"
+          >
+            Download CV
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- CONTACT -->
+
+    <section
+      class="section contact reveal"
       id="contact"
     >
 
       <div class="contact-inner">
 
-
         <p class="eyebrow">
-          05 / LET'S CONNECT
+          07 / LET'S CONNECT
         </p>
 
 
@@ -938,57 +1180,98 @@
         </h2>
 
 
+        <div class="contact-grid">
 
-        <div class="contact-links">
+
+          <div class="contact-links">
 
 
-          <a
-            href="mailto:mohamed.ahmed.alaa.2024@gmail.com"
+            <a
+              href="mailto:mohamed.ahmed.alaa.2024@gmail.com"
+            >
+
+              <span>
+                EMAIL
+              </span>
+
+
+              <strong>
+                mohamed.ahmed.alaa.2024@gmail.com
+              </strong>
+
+
+              <b>
+                ↗
+              </b>
+
+            </a>
+
+
+
+            <a
+              href="https://www.linkedin.com/in/mohamed-ahmed-alaa-bb2a85410/en"
+              target="_blank"
+            >
+
+              <span>
+                LINKEDIN
+              </span>
+
+
+              <strong>
+                Mohamed Ahmed Alaa Eldin
+              </strong>
+
+
+              <b>
+                ↗
+              </b>
+
+            </a>
+
+          </div>
+
+
+
+          <!-- CONTACT FORM -->
+
+          <form
+            class="contact-form"
+            id="contactForm"
           >
 
-            <span>
-              EMAIL
-            </span>
+            <input
+              type="text"
+              id="name"
+              placeholder="Your Name"
+              required
+            >
 
 
-            <strong>
-              mohamed.ahmed.alaa.2024@gmail.com
-            </strong>
+            <input
+              type="email"
+              id="email"
+              placeholder="Your Email"
+              required
+            >
 
 
-            <b>
-              ↗
-            </b>
-
-          </a>
-
-
-
-          <a
-            href="https://www.linkedin.com/in/mohamed-ahmed-alaa-bb2a85410/en"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-
-            <span>
-              LINKEDIN
-            </span>
+            <textarea
+              id="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
 
 
-            <strong>
-              Mohamed Ahmed Alaa Eldin
-            </strong>
+            <button
+              type="submit"
+            >
+              Send Message ↗
+            </button>
 
-
-            <b>
-              ↗
-            </b>
-
-          </a>
-
+          </form>
 
         </div>
-
 
       </div>
 
@@ -999,12 +1282,106 @@
 
 
 
+  <!-- CERTIFICATE MODAL -->
+
+  <div
+    class="certificate-modal"
+    id="certificateModal"
+  >
+
+    <button
+      class="modal-close"
+      id="closeCertificate"
+      aria-label="Close"
+    >
+      ×
+    </button>
+
+
+    <button
+      class="modal-nav prev"
+      id="previousCertificate"
+    >
+      ←
+    </button>
+
+
+    <div class="modal-image-wrapper">
+
+      <img
+        id="modalCertificateImage"
+        src=""
+        alt="Certificate"
+      >
+
+    </div>
+
+
+    <button
+      class="modal-nav next"
+      id="nextCertificate"
+    >
+      →
+    </button>
+
+
+    <div
+      class="modal-title"
+      id="modalCertificateTitle"
+    ></div>
+
+  </div>
+
+
+
+  <!-- CV MODAL -->
+
+  <div
+    class="cv-modal"
+    id="cvModal"
+  >
+
+    <button
+      class="modal-close"
+      id="closeCV"
+      aria-label="Close CV"
+    >
+      ×
+    </button>
+
+
+    <div class="cv-viewer">
+
+      <iframe
+        id="cvFrame"
+        title="Mohamed Ahmed Alaa CV"
+      ></iframe>
+
+    </div>
+
+  </div>
+
+
+
+  <!-- FIXED DOWNLOAD CV -->
+
+  <a
+    href="files/Mohamed-Ahmed-Alaa-CV.pdf"
+    download
+    class="fixed-cv"
+  >
+
+    ↓ CV
+
+  </a>
+
+
+
   <!-- BACK TO TOP -->
 
   <button
     class="back-to-top"
     id="backToTop"
-    type="button"
     aria-label="Back to top"
   >
     ↑
@@ -1012,12 +1389,9 @@
 
 
 
-  <!-- FOOTER -->
-
   <footer>
 
     <div>
-
 
       <span>
         © 2026 MOHAMED AHMED ALAA ELDIN
@@ -1025,9 +1399,9 @@
 
 
       <span>
-        ASSIUT NATIONAL UNIVERSITY • FACULTY OF PHARMACY
+        ASSIUT NATIONAL UNIVERSITY
+        • FACULTY OF PHARMACY
       </span>
-
 
     </div>
 
@@ -1035,14 +1409,7 @@
 
 
 
-  <!-- JAVASCRIPT -->
-
-  <script
-    src="script.js"
-    defer
-  ></script>
-
+  <script src="script.js"></script>
 
 </body>
-
 </html>
